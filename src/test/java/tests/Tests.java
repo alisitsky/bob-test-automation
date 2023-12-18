@@ -11,6 +11,8 @@ import pages.BirdPage;
 import pages.MainPage;
 import pages.SearchPage;
 
+import static io.qameta.allure.Allure.step;
+
 
 @DisplayName("Тесты на вебсайт 'Птицы России'")
 @Tag("all-tests")
@@ -29,8 +31,20 @@ public class Tests extends TestBase {
     @DisplayName("Поиск птицы (есть результаты)")
     @Tag("smoke")
     void searchBird() {
-        mainPage.openPage().fillSearchInput(data.randomBird).search();
-        searchPage.checkSearchResult(data.randomBird);
+        step("Открываем главную cтраницу", () -> {
+            mainPage.openPage();
+        });
+        step("Вводим поисковый запрос: " + data.randomBird, () -> {
+            mainPage.fillSearchInput(data.randomBird);
+        });
+        step("Нажимаем на кнопку поиска", () -> {
+            mainPage.search();
+        });
+
+        step("Проверяем наличие результата поиска", () -> {
+            searchPage.checkSearchResult(data.randomBird);
+        });
+
     }
 
     @Test
@@ -40,8 +54,21 @@ public class Tests extends TestBase {
     @DisplayName("Поиск птицы (нет результатов)")
     @Tag("regress")
     void searchBirdEmpty() {
-        mainPage.openPage().fillSearchInput(data.emptySearchResult).search();
-        searchPage.checkSearchResultEmpty();
+        step("Открываем главную cтраницу", () -> {
+            mainPage.openPage();
+        });
+
+        step("Вводим поисковый запрос: " + data.emptySearchResult, () -> {
+            mainPage.fillSearchInput(data.emptySearchResult);
+        });
+
+        step("Нажимаем на кнопку поиска", () -> {
+            mainPage.search();
+        });
+
+        step("Проверяем заглушку при отсутствии результатов поиска", () -> {
+            searchPage.checkSearchResultEmpty();
+        });
     }
 
     @Test
@@ -51,10 +78,24 @@ public class Tests extends TestBase {
     @DisplayName("Проверка наличия видео у птицы")
     @Tag("regress")
     void checkBirdVideo() {
-        mainPage.openPage().fillSearchInput(data.birdsWithVideo).search();
-        searchPage.openSearchLink();
-        birdPage.checkTitlePage(data.birdsWithVideo).checkVideo();
-
+        step("Открываем главную cтраницу", () -> {
+            mainPage.openPage();
+        });
+        step("Вводим поисковый запрос: " + data.birdsWithVideo, () -> {
+            mainPage.fillSearchInput(data.birdsWithVideo);
+        });
+        step("Нажимаем на кнопку поиска", () -> {
+            mainPage.search();
+        });
+        step("Открываем ссылку поискового результата", () -> {
+            searchPage.openSearchLink();
+        });
+        step("Проверяем заголовок страницы", () -> {
+            birdPage.checkTitlePage(data.birdsWithVideo);
+        });
+        step("Проверяем наличие видео", () -> {
+            birdPage.checkVideo();
+        });
     }
 
 
@@ -65,9 +106,24 @@ public class Tests extends TestBase {
     @DisplayName("Проверка наличия аудио у птицы")
     @Tag("regress")
     void checkBirdAudio() {
-        mainPage.openPage().fillSearchInput(data.birdsWithAudio).search();
-        searchPage.openSearchLink();
-        birdPage.checkTitlePage(data.birdsWithAudio).checkAudio();
+        step("Открываем главную cтраницу", () -> {
+            mainPage.openPage();
+        });
+        step("Вводим поисковый запрос: " + data.birdsWithAudio, () -> {
+            mainPage.fillSearchInput(data.birdsWithAudio);
+        });
+        step("Нажимаем на кнопку поиска", () -> {
+            mainPage.search();
+        });
+        step("Открываем ссылку поискового результата", () -> {
+            searchPage.openSearchLink();
+        });
+        step("Проверяем заголовок страницы", () -> {
+            birdPage.checkTitlePage(data.birdsWithAudio);
+        });
+        step("Проверяем наличие аудио", () -> {
+            birdPage.checkAudio();
+        });
     }
 
     @Test
@@ -77,7 +133,24 @@ public class Tests extends TestBase {
     @DisplayName("Проверка работы конструктора птицы")
     @Tag("smoke")
     void CheckBirdGuide() {
-        birdGuidePage.openPage().selectSilhoette().selectColour().checkLinkBird().LinkBirdClick();
-        birdPage.checkTitlePage(data.birdGuide);
+        step("Открываем страницу конструктора", () -> {
+            birdGuidePage.openPage();
+        });
+        step("Выбираем силуэт", () -> {
+            birdGuidePage.selectSilhoette();
+        });
+        step("Выбираем цвет", () -> {
+            birdGuidePage.selectColour();
+        });
+        step("Проверяем наличие ссылки на птицу", () -> {
+            birdGuidePage.checkLinkBird();
+        });
+        step("Кликаем по ссылке", () -> {
+            birdGuidePage.linkBirdClick();
+        });
+
+        step("Проверяем заголовок страницы", () -> {
+            birdPage.checkTitlePage(data.birdGuide);
+        });
     }
 }
