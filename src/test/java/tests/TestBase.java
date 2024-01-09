@@ -19,18 +19,18 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-//        Configuration.remote = System.getProperty("selenoid", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = System.getProperty("selenoid", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         Configuration.baseUrl = System.getProperty("baseUrl", "https://bluorbank.lv/");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "120.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
 
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-//                "enableVNC", true,
-//                "enableVideo", true
-//        ));
-//        Configuration.browserCapabilities = capabilities;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+        Configuration.browserCapabilities = capabilities;
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
