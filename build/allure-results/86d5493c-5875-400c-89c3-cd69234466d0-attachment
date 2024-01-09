@@ -1,0 +1,1121 @@
+<html class="no-js" ng-app="cmsApp" ng-strict-di=""><head prefix="og: http://ogp.me/ns#"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    
+    <title>BluOr Bank - Bank for business and entrepreneurs.</title>
+    <meta charset="utf-8">
+    <meta name="description" content="BluOr Bank - convenient, accessible and secure online financial services for private clients and business.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="BluOr Bank - Bank for business and entrepreneurs.">
+    <meta property="og:description" content="BluOr Bank - convenient, accessible and secure online financial services for private clients and business.">
+    
+    <meta property="og:image" content="https://bluorbank.lv:443/api/file/29320/see">
+   
+    
+    
+        <link rel="canonical" href="https://bluorbank.lv:443/latvija/en">
+        <link href="/Styles/bundle.css?v=1.5.8733.28214" rel="stylesheet">
+    
+    <link href="/Styles/new-design.css" rel="stylesheet">
+
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-2Z36W5QZB6&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/config/1538291673143384?v=2.9.139&amp;r=stable&amp;domain=bluorbank.lv" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-GETR10ERRQ&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WCWMC2"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        
+                window.dataLayer.push({ 'event': 'blueorange-strictly-necessary' });
+                window.dataLayer.push({ 'blueorange-strictly-necessary': 'true' });
+                window.dataLayer.push({ 'event': 'blueorange-stats' });
+                window.dataLayer.push({ 'blueorange-stats': 'true' });
+                window.dataLayer.push({ 'event': 'blueorange-ads' });
+                window.dataLayer.push({ 'blueorange-ads': 'true' });
+    </script>
+
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WCWMC2');</script>
+
+
+        <!-- Google Maps -->
+        <script>var gMapsApiKey = 'AIzaSyARog4yacSYBmkKSKUTI0rrcxelulD1ly4';</script>
+        <script>
+            var mapsToLoad = [];
+            var mapsLoadingUrl = 'https://maps.googleapis.com/maps/api/js?key=' + gMapsApiKey + '&callback=onloadGMapsCallback';
+            var onloadGMapsCallback = function () {
+                
+                if (!window.location.origin) {
+                    window.location.origin = window.location.protocol + '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+                }
+                var gMapsMarkerWithLabelElement = document.createElement('script');
+                gMapsMarkerWithLabelElement.src = window.location.origin + '/Scripts/lib/markerwithlabel.min.js';
+
+                
+                gMapsMarkerWithLabelElement.onload = function () {
+                    
+                    $(document).ready(function () {
+                        for (var i = 0; i < mapsToLoad.length; i++) {
+                            initMap(mapsToLoad[i]);
+                        }
+                    });
+                };
+                
+                document.body.appendChild(gMapsMarkerWithLabelElement);
+
+            };
+        </script>
+        <!-- END Google Maps -->
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="~/Styles/ie7.css"></script><![endif]-->
+
+    
+
+    
+
+    <script>
+        var pageRegion = '';
+        var pageLang = 'en';
+        var pageToken = '4d84c6IkffQB3FSS0UO89pFVHs1v9-cmAWZXcAceZLwVjriKaxbsG2-UeW4CEIB4vOmfT91vYsOmvQMjXrDhBcy1FcLXETbrZeCgEfn3lQo1:nFJhNk0_9MMrwxrHeNVYcFbpyyleFX82je116pcCs2Hi1vABG4Rkxzqzyl_8-GX9pYN6NUoQvOshCkNb2ST-qUVEWWYYCnjYIFMcNXzDeNs1';
+        var pageSMToken = '1704833627:TdFJOh4J6YrSWRVTm8yadka0iTvFKMRf4ys3Dyb9XG8=';
+        var pageTitle = 'BluOr Bank - Bank for business and entrepreneurs.';
+        var maxFileSizeCfg = 7;
+        var maxFileCountCfg = 5;
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+    </script>
+    
+<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/937713477/?random=1704833600082&amp;cv=11&amp;fst=1704833600082&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4130v72382841&amp;gcd=11l1l1l1l1&amp;dma_cps=sypham&amp;dma=1&amp;u_w=1280&amp;u_h=800&amp;url=https%3A%2F%2Fbluorbank.lv%2Fen%2Findex&amp;ref=https%3A%2F%2Fbluorbank.lv%2Flv&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=BluOr%20Bank%20-%20Bank%20for%20business%20and%20entrepreneurs.&amp;auid=1138594899.1704833595&amp;uaa=x86&amp;uab=64&amp;uafvl=Not_A%2520Brand%3B8.0.0.0%7CChromium%3B120.0.6099.199%7CGoogle%2520Chrome%3B120.0.6099.199&amp;uamb=0&amp;uap=macOS&amp;uapv=11.7.10&amp;uaw=0&amp;rfmt=3&amp;fmt=4"></script><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><style type="text/css">[responsive-image] > img, [data-responsive-image] {overflow: hidden; padding: 0; } [responsive-image] > img, [data-responsive-image] > img {width: 100%;}
+@keyframes element-queries { 0% { visibility: inherit; } }</style><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+<body ng-controller="MainController as vm">
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCWMC2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="mainContent-container">
+            <script src="/Scripts/bundle.js?v=1.5.8733.28214"></script>
+
+        
+        <!--[if lt IE 8]><script src="~/Scripts/icons/ie7.js"></script><![endif]-->
+
+        
+<div id="content" class="close-area">
+
+    
+<nav class="nav-bar">
+    <div class="header-container">
+
+        <div class="i-logo">
+            <a href="/en"><img src="/Images/logo.png" alt="Logo"></a>
+        </div>
+
+        <input type="checkbox" id="drop-down-cbox">
+        <label for="drop-down-cbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="main-nav">
+
+            <li class="i-mobile-show mobile-lang">
+                
+                        <a href="/ru/index">Русский</a>
+                        <a href="/lv/index">Latviešu</a>
+            </li>
+
+            <li class="i-mobile-show i-internetbank-li"><a class="i-internetbank" href="https://ib.bluorbank.lv/x/login?language=en">Internet Bank</a></li>
+
+            <li class="mobile-submenu mobile-back-button">
+                <a style="width: 100%" id="menu-back-button" class="i-menu-link" href="#"> <i class="fa fa-chevron-left chevron pull-left"></i> </a>
+            </li>
+
+                    <li class="root-menu-item">
+                        <a style="width: 100%; padding-right: 24px" class="i-menu-link submenu-link" href="#" id="MainMenu2105">Banking services
+                        <i class="fa fa-chevron-right chevron pull-right"></i></a>
+                    
+                </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/corporate-account">Business bank account</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/personal-account">Private account</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/safe-deposit-boxes">Safe deposit boxes</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/payment-cards">Payment cards</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/currency-exchange">Currency exchange</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/pricelist">Pricelist</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/payments">Payments</a>
+        </li>
+        <li class="mobile-submenu MainMenu2105">
+            <a style="width: 100%" class="i-menu-link" href="/en/deposit">Deposit</a>
+        </li>
+    <script>
+
+        $('#menu-back-button').click(function () {
+            $('.mobile-submenu').removeClass('appear');
+            $('.root-menu-item').removeClass('removed');
+        });
+
+        $('.submenu-link').each(function () {
+            let currentItemId = $(this).attr('id');
+            $(this).off('click');
+            $(this).click(function (event) {
+                event.preventDefault();
+                $('.' + currentItemId).addClass('appear');
+                $('.mobile-back-button').addClass('appear');
+                $('.root-menu-item').addClass('removed');
+            });
+        });
+
+    </script>
+                    <li class="root-menu-item">
+                        <a style="width: 100%; padding-right: 24px" class="i-menu-link submenu-link" href="#" id="MainMenu2115">Loans
+                        <i class="fa fa-chevron-right chevron pull-right"></i></a>
+                    
+                </li>
+        <li class="mobile-submenu MainMenu2115">
+            <a style="width: 100%" class="i-menu-link" href="/en/business-loans_">Loans for business</a>
+        </li>
+        <li class="mobile-submenu MainMenu2115">
+            <a style="width: 100%" class="i-menu-link" href="/en/documentary-operations">Documentary operations</a>
+        </li>
+    <script>
+
+        $('#menu-back-button').click(function () {
+            $('.mobile-submenu').removeClass('appear');
+            $('.root-menu-item').removeClass('removed');
+        });
+
+        $('.submenu-link').each(function () {
+            let currentItemId = $(this).attr('id');
+            $(this).off('click');
+            $(this).click(function (event) {
+                event.preventDefault();
+                $('.' + currentItemId).addClass('appear');
+                $('.mobile-back-button').addClass('appear');
+                $('.root-menu-item').addClass('removed');
+            });
+        });
+
+    </script>
+                    <li class="root-menu-item">
+                        <a style="width: 100%; padding-right: 24px" class="i-menu-link submenu-link" href="#" id="MainMenu2112">E-commerce
+                        <i class="fa fa-chevron-right chevron pull-right"></i></a>
+                    
+                </li>
+        <li class="mobile-submenu MainMenu2112">
+            <a style="width: 100%" class="i-menu-link" href="/en/e-commerce-online-card-acceptance">Online card acceptance</a>
+        </li>
+        <li class="mobile-submenu MainMenu2112">
+            <a style="width: 100%" class="i-menu-link" href="/en/rental-of-pos-terminals">Rental of POS terminals</a>
+        </li>
+    <script>
+
+        $('#menu-back-button').click(function () {
+            $('.mobile-submenu').removeClass('appear');
+            $('.root-menu-item').removeClass('removed');
+        });
+
+        $('.submenu-link').each(function () {
+            let currentItemId = $(this).attr('id');
+            $(this).off('click');
+            $(this).click(function (event) {
+                event.preventDefault();
+                $('.' + currentItemId).addClass('appear');
+                $('.mobile-back-button').addClass('appear');
+                $('.root-menu-item').addClass('removed');
+            });
+        });
+
+    </script>
+                    <li class="root-menu-item">
+                        <a style="width: 100%; padding-right: 24px" class="i-menu-link submenu-link" href="#" id="MainMenu2117">Investments
+                        <i class="fa fa-chevron-right chevron pull-right"></i></a>
+                    
+                </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/brokerage">Brokerage</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/trading-platforms">Trading platforms</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/deposit">Deposit</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/asset-management">Asset management</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+             <a style="width: 100%" class="i-menu-link" href="https://bluor.trade/EN/index" target="_blank">Forex and CFDs</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/subordinated-deposit">Subordinated Deposit</a>
+        </li>
+        <li class="mobile-submenu MainMenu2117">
+            <a style="width: 100%" class="i-menu-link" href="/en/bluor-bank-bonds">BluOr Bank bonds</a>
+        </li>
+    <script>
+
+        $('#menu-back-button').click(function () {
+            $('.mobile-submenu').removeClass('appear');
+            $('.root-menu-item').removeClass('removed');
+        });
+
+        $('.submenu-link').each(function () {
+            let currentItemId = $(this).attr('id');
+            $(this).off('click');
+            $(this).click(function (event) {
+                event.preventDefault();
+                $('.' + currentItemId).addClass('appear');
+                $('.mobile-back-button').addClass('appear');
+                $('.root-menu-item').addClass('removed');
+            });
+        });
+
+    </script>
+                    <li class="root-menu-item">
+                        <a style="width: 100%; padding-right: 24px" class="i-menu-link submenu-link" href="#" id="MainMenu2126">Contacts and support
+                        <i class="fa fa-chevron-right chevron pull-right"></i></a>
+                    
+                </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/contacts-and-details">Contacts and details</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/about-us">About us</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/documents"> Documents</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/atm">BluOr Bank ATM</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/questions-and-answers">Questions and answers</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/mobile-bank">Mobile bank</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/payment-difficulties">Payment Difficulties</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+             <a style="width: 100%" class="i-menu-link" href="https://services.bluorbank.lv/payment/?lang=en">Payments for banking services</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/exchange-rates">Exchange rates</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+            <a style="width: 100%" class="i-menu-link" href="/en/apply-for-a-visit">Apply for a visit</a>
+        </li>
+        <li class="mobile-submenu MainMenu2126">
+             <a style="width: 100%" class="i-menu-link" href="tel:+37167031333">+371 67 031 333</a>
+        </li>
+    <script>
+
+        $('#menu-back-button').click(function () {
+            $('.mobile-submenu').removeClass('appear');
+            $('.root-menu-item').removeClass('removed');
+        });
+
+        $('.submenu-link').each(function () {
+            let currentItemId = $(this).attr('id');
+            $(this).off('click');
+            $(this).click(function (event) {
+                event.preventDefault();
+                $('.' + currentItemId).addClass('appear');
+                $('.mobile-back-button').addClass('appear');
+                $('.root-menu-item').addClass('removed');
+            });
+        });
+
+    </script>
+                    <li class="root-menu-item"><a style="width: 100%" class="i-menu-link" href="/en/investors">For investors</a></li>
+
+            <li class="i-mobile-hide"><a class="i-internetbank" href="https://ib.bluorbank.lv/x/login?language=en">Internet Bank</a></li>
+            <li class="i-mobile-hide languages">
+                <a class="dropdown-toggle i-menu-link" id="languages" data-toggle="dropdown">
+                    English
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu languages">
+                    
+                            <li><a class="i-menu-link" href="/ru/index">Русский</a></li>
+                            <li><a class="i-menu-link" href="/lv/index">Latviešu</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+    <div id="MainMenu2105-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    <div class="popup-row first">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/corporate-account">Business bank account</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/personal-account">Private account</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/safe-deposit-boxes">Safe deposit boxes</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/payment-cards">Payment cards</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/currency-exchange">Currency exchange</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/pricelist">Pricelist</a>
+                    </div>
+                    </div>
+                    <div class="popup-row last">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/payments">Payments</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/deposit">Deposit</a>
+                    </div>
+                    </div>
+                    </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2105').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2105-menu').width();
+                let menuItemWidth = $('#MainMenu2105').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2105-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2105-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2105-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2105-menu').length && !$(event.target).is('#MainMenu2105-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+    <div id="MainMenu2115-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    <div class="popup-row first last">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/business-loans_">Loans for business</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/documentary-operations">Documentary operations</a>
+                    </div>
+                    </div>
+                    </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2115').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2115-menu').width();
+                let menuItemWidth = $('#MainMenu2115').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2115-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2115-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2115-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2115-menu').length && !$(event.target).is('#MainMenu2115-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+    <div id="MainMenu2112-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    <div class="popup-row first last">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/e-commerce-online-card-acceptance">Online card acceptance</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/rental-of-pos-terminals">Rental of POS terminals</a>
+                    </div>
+                    </div>
+                    </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2112').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2112-menu').width();
+                let menuItemWidth = $('#MainMenu2112').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2112-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2112-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2112-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2112-menu').length && !$(event.target).is('#MainMenu2112-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+    <div id="MainMenu2117-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    <div class="popup-row first">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/brokerage">Brokerage</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/trading-platforms">Trading platforms</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/deposit">Deposit</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/asset-management">Asset management</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a href="https://bluor.trade/EN/index" target="_blank">Forex and CFDs</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/subordinated-deposit">Subordinated Deposit</a>
+                    </div>
+                    </div>
+                    <div class="popup-row last">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/bluor-bank-bonds">BluOr Bank bonds</a>
+                    </div>
+                        </div>
+        </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2117').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2117-menu').width();
+                let menuItemWidth = $('#MainMenu2117').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2117-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2117-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2117-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2117-menu').length && !$(event.target).is('#MainMenu2117-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+    <div id="MainMenu2126-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    <div class="popup-row first">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/contacts-and-details">Contacts and details</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/about-us">About us</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/documents"> Documents</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/atm">BluOr Bank ATM</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/questions-and-answers">Questions and answers</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/mobile-bank">Mobile bank</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="Payment difficulties for mortgage borrowers-consumers" href="/en/payment-difficulties">Payment Difficulties</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="https://services.bluorbank.lv/payment/?lang=en">Payments for banking services</a>
+                    </div>
+                    </div>
+                    <div class="popup-row">
+                    <div class="menu-column-item left">
+                        
+
+                            <a title="" href="/en/exchange-rates">Exchange rates</a>
+                    </div>
+                    <div class="menu-column-item right">
+                        
+
+                            <a title="" href="/en/apply-for-a-visit">Apply for a visit</a>
+                    </div>
+                    </div>
+                    <div class="popup-row last">
+                    <div class="menu-column-item left">
+                        
+
+                            <a href="tel:+37167031333">+371 67 031 333</a>
+                    </div>
+                        </div>
+        </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2126').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2126-menu').width();
+                let menuItemWidth = $('#MainMenu2126').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2126-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2126-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2126-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2126-menu').length && !$(event.target).is('#MainMenu2126-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+    <div id="MainMenu2277-menu" class="main-menu-popup">
+        <div class="triangle"></div>
+        <div class="container2">
+                    </div>
+        <div class="clearfix"></div>
+        </div>
+        <script>
+            function hideArrowInMegaMenu() {
+                
+                $('.main-navigation .mega-menu-caret').hide();
+            }
+
+            
+            function hideMegaMenu() {
+                
+                $('.main-menu-popup').removeClass('appear');
+                
+                hideArrowInMegaMenu();
+            }
+
+            $('#MainMenu2277').on('mouseover', function () {
+                
+                hideMegaMenu();
+                
+                let menuWidth = $('#MainMenu2277-menu').width();
+                let menuItemWidth = $('#MainMenu2277').width();
+                let popupOffsetY = menuWidth / 2 - menuItemWidth / 2;
+                let popupOffsetX = this.offsetParent.clientHeight + 9;
+                $('#MainMenu2277-menu').css('left', this.offsetLeft - popupOffsetY);
+                $('#MainMenu2277-menu').css('top', popupOffsetX);
+
+
+                $('#MainMenu2277-menu').addClass('appear');
+            });
+
+        
+        $(document).click(function (event) {
+            if (!$(event.target).closest('#MainMenu2277-menu').length && !$(event.target).is('#MainMenu2277-menu')) {
+                hideMegaMenu();
+            }
+            });
+
+        
+        
+        </script>
+
+
+
+
+<script>
+    function openSearch() {
+        if ($('#searchInput').hasClass('search-input-close')) {
+            $('#searchIcon').attr('class', 'fa fa-times');
+            $('#searchInput').removeClass('search-input-close');
+            $('#searchInput').addClass('search-input-open');
+            $('.third-line nav').addClass('relativeNav searchOpen');
+        } else if ($('#searchInput').hasClass('search-input-open')) {
+            $('#searchInput').removeClass('search-input-open');
+            $('#searchInput').addClass('search-input-close');
+            $('#searchIcon').attr('class', 'fa fa-search');
+            $('#searcInputField').blur();
+            $('.third-line nav').removeClass('searchOpen');
+        }
+    }
+    $(document).ready(function () {
+        $('#searcInputField').keydown(function (e) {
+            if (e.which === 13) {
+                if ($('#searcInputField').val().length > 3) {
+                    window.location = "/en/search/?q=" + $('<div/>').text($('#searcInputField').val()).html();
+                }
+                return false;
+            }
+        });
+    });
+
+    
+    $('.menu-column-item').on('click', function (evt) {
+        evt.currentTarget.children[0].click();
+    });
+
+</script>
+
+
+        <div id="page-elements">
+            <div><div id="" class="widget-block-1" style="margin: 0px;"><div class="widget-bg" style="background-image: url(&quot;&quot;); background-color: rgb(241, 244, 245); padding: 50px 0px;"><div class="container"><div><span class="drag-area"></span><div><div class="row content-row"><div class="col-sm-7 visible-xs"><a><img title="" alt="" src="/api/file/29159" class="standart-image"></a></div><div class="col-sm-5"><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><span style="font-size: 64px;"><b><br></b></span></h3><h1><span style="font-size: 54px;"><b>Business banking made better</b></span><br></h1></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><span style="color: rgb(128, 171, 220);">Banking solutions for your growth? We’re on it.</span></h3></div><a class="btn btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/corporate-account">Open an account</a></div><div class="col-sm-7 hidden-xs"><a><img title="" alt="" src="/api/file/29159" class="standart-image"></a></div></div></div></div></div></div></div></div><div><div id="" class="widget-block-7" style="margin: 100px 0px;"><div class="container"><div><span class="drag-area"></span><div class="widget-header   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h2><p style="text-align: center;"><span style="font-size: 32px; color: rgb(0, 56, 101);"><b>Everything you expect of a partner-first bank</b></span><br></p></h2></div><div class="row"><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29125"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3 style="text-align: center;"><p><span style="color: rgb(0, 56, 101);"><b>Business accounts&nbsp;&nbsp;</b></span></p></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">We open accounts remotely for companies in Latvia, as well as the EU, the EAA, the UK and Switzerland.</span></h4><h4><span style="color: rgb(0, 56, 101);"><a href="/en/corporate-account"><b>Open an account &gt;&gt;</b></a></span></h4></div></div><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29126"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3 style="text-align: center;"><span style="color: rgb(0, 56, 101);"><b>Loans for business</b></span><br></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Investments in technology, equipment, and real estate, working capital financing, development.</span></h4><h4><a href="/en/business-loans_" style="color: rgb(0, 56, 101);"><b>Learn more &gt;&gt;</b></a></h4></div></div><div class="col-md-3 widget-element clearLeft"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29123"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3 style="text-align: center;"><p><span style="color: rgb(0, 56, 101);"><b>E-commerce solutions</b></span><br></p></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Secure a payment system for your website or mobile app. Money will be credited to your account within 24 hours.</span></h4><h4><a href="/en/e-commerce-online-card-acceptance" style="color: rgb(0, 56, 101);"><b>Learn more &gt;&gt;</b></a></h4></div></div><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29124"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><p></p><div style="text-align: center;"><span style="color: rgb(0, 56, 101);"><b>Deposits online</b></span><br></div><p></p></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Remote placement of a savings deposit for EU residents and EU-registered businesses.</span></h4><h4><span style="color: rgb(0, 56, 101);"><a href="/en/term-deposit"><b>Place a savings deposit &gt;&gt;</b></a></span></h4></div></div></div></div></div></div></div><div><div id="" class="widget-block-11" style="margin: 0px;"><div class="widget-bg" style="background-image: url(&quot;&quot;); background-color: rgb(0, 56, 101); padding: 50px 0px 100px;"><div class="container"><div><span class="drag-area"></span><div class="widget-header   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h1><span style="color: rgb(255, 255, 255);"><b>From overdraft to EUR 25 million</b></span><br></h1></div><div class="row content-row"><div class="col-sm-7 visible-xs"><img title="" alt="" src="/api/file/29903" class="standart-image" style="margin-top: 0px;"></div><div class="col-sm-5"><div class="widget-header   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(191, 205, 216);">We know how to work with businesses whose loan applications do not fit into standard requirements. We make quick and efficient decisions, and we are approachable – all because BluOr Bank is a bank with a local capital.&nbsp;</span></h4></div><ul class="widget-list-items"><li><i class="widget-icon fa fa-check"></i><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(255, 255, 255);">Preliminary consideration within 24 hours</span><br></h4></div></li><li><i class="widget-icon fa fa-check"></i><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(255, 255, 255);">A variety of financing programs</span><br></h4></div></li><li><i class="widget-icon fa fa-check"></i><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(255, 255, 255);">An individual payment plan and terms for your company</span><br></h4></div></li><li><i class="widget-icon fa fa-check"></i><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(255, 255, 255);">Unprecedented decision-making speed and full transparency</span></h4></div></li></ul><div class="button-align-center-xs"><a class="btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/business-loans_#aizdevuma_pieteikums">Apply now</a></div></div><div class="col-sm-7 hidden-xs"><img title="" alt="" src="/api/file/29903" style="margin-top: 0px;" class="standart-image"></div></div></div></div></div></div></div><div><div id="" class="widget-block-7" style="margin: 90px 0px 30px;"><div class="container"><div><span class="drag-area"></span><div class="widget-header   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h1 style="text-align: center;"><b>We work for your success<br><br></b></h1><p><span style="font-weight: 400;"><br></span></p></div><div class="row"><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29956"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3 style="text-align: left;"><b>CLT Profi</b></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><p></p><p><span style="font-size: 16px; color: rgb(172, 172, 173);">BluOr Bank supports business development of the exporter of solid wood panels – CLT Profi.</span><br></p><p><br></p><p><br></p><h4 style="text-align: left;"><a href="/en/bluor-bank-supports-business-development-of-the-exporter-of-solid-wood-panels-clt-profi" style=""><b>Read article&nbsp;&gt;&gt;</b></a></h4><p></p></div></div><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/30136"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><b>ZS Karotītes</b><br></h3></div><div class="editable-text-container  angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><p style="text-align: left;"></p><h4><span style="font-size: 16px; color: rgb(172, 172, 173);">BluOr Bank has provided financing in the amount of 1.643 million euros to “Karotītes”, the largest organic poultry farm in Latvia and the Baltics.</span><br></h4><h4><b><a href="/en/bluor-bank-funding-for-the-development-of-organic-poultry-farming"><b>Read article</b>&nbsp;<b>&gt;&gt;</b></a></b></h4><p></p></div></div><div class="col-md-3 widget-element clearLeft"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/30041"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><b>AD REM Auto</b><br></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="font-size: 16px; color: rgb(172, 172, 173);">With BluOr Bank’s financing in the amount of EUR 2.14 million, the construction of Europe’s largest Subaru car centre has begun in Ulmaņa gatve.</span></h4><h4><a href="/en/europes-largest-subaru-car-centre-under-construction-with-support-from-bluor-bank" style=""><b>Read article</b> <span style="font-weight: 400;">&gt;&gt;</span></a></h4><p></p></div></div><div class="col-md-3 widget-element"><a><img class="img-size-4 standart-image" title="" alt="" src="/api/file/29200"></a><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h3><b>Rūdolfs Lat Eko Food</b><br></h3></div><div class="editable-text-container   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4 style="text-align: left;"><span style="font-size: 16px; color: rgb(172, 172, 173);">SIA Lat Eko Food, whose most well-known trademark on the Latvian market is the brand “Rūdolfs”, has attracted EUR 7.4 million financing from BluOr Bank.</span></h4><h4 style="text-align: left;"><a href="/en/news/2022/sia-lat-eko-food-known-for-its-organic-baby-food-brand-rudolfs-has-started-successful-cooperation-with-blueorange-bank" style=""><b>Read article &gt;&gt;</b></a><br></h4></div></div></div></div></div></div></div><div><div id="" class="widget-block-callToAction" style="margin: 0px 0px 100px;"><div class="widget-bg" style="background-image: url(&quot;&quot;); padding: 0px;"><div class="container"><div><span class="drag-area"></span><div class="row"><div class="col-sm-12" style="text-align: center;"><a class="btn widget-btn" style="vertical-align: middle; background-color: #0057B8; border-color: #0057B8;" href="/en/finance-partners">learn more</a></div></div></div></div></div></div></div><div><div id="" class="widget-block-2" style="background-image: url(&quot;&quot;); background-color: rgb(255, 255, 255); padding: 50px 0px; margin: 0px;"><div><div class="container"><span class="drag-area"></span><div class="widget-header   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"></div><ul class="tabs" role="tablist"><li role="presentation" class="active"><a class="widget-header" href="#topTab17011784734520" aria-controls="Deposits" role="tab" data-toggle="tab">Deposits</a></li><li role="presentation"><a class="widget-header" href="#topTab17011784734521" aria-controls="Asset managment<br>" role="tab" data-toggle="tab">Asset managment<br></a></li><li role="presentation"><a class="widget-header" href="#topTab17011784734522" aria-controls="Subordinated deposits" role="tab" data-toggle="tab">Subordinated deposits</a></li><li role="presentation"><a class="widget-header" href="#topTab17011784734523" aria-controls="Brokerage" role="tab" data-toggle="tab">Brokerage</a></li></ul></div><div><div class="container"><div class="row"><div class="tab-content"><div class="tab-pane fade in active" id="topTab17011784734520"><div class="row content-row"><div class="col-sm-6"><a><img title="" alt="" src="/api/file/29020" class="standart-image"></a></div><div class="col-sm-6 border"><div class="tab-content-block"><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h2><b>Remote deposits&nbsp;</b><br></h2></div><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Remote savings deposit placements at BluOr Bank are available to all EU residents and companies registered in the EU.</span><br></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp; &nbsp;•	You do not need to open a BluOr Bank account to place a deposit in our bank*</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp; &nbsp;•&nbsp;Minimum deposit of EUR 500 for Latvian residents</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp; &nbsp;•	Minimum deposit of EUR 1000 for EU residents and EU-based</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp; &nbsp;•	Lucrative standard rates and individual offers</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp; &nbsp;•	State indemnity for deposits up to EUR 100 000<br><br></span></h4><p><span style="color: rgb(172, 172, 173);">*Applicable only to individuals who are residents of the European Union<br></span></p><p></p></div><a class="btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/deposit">Apply now</a></div></div></div></div><div class="tab-pane fade" id="topTab17011784734521"><div class="row content-row"><div class="col-sm-6"><a><img title="" alt="" src="/api/file/29219" class="standart-image"></a></div><div class="col-sm-6 border"><div class="tab-content-block"><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h2><b>Asset management</b><br></h2></div><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Entrust your assets to experienced banking professionals. We will offer equity participation in existing asset portfolios or create an individual offer specially for you.</span><br></h4><p><span style="color: rgb(172, 172, 173);"><br></span></p><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•&nbsp;Analysis of the facts and figures to decide on the best strategy for reaching your financial goals</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Efficient risk distribution throughout asset types considering your risk tolerance</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Servicing and safekeeping of securities</span></h4><p></p><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Portfolio diversification, investments in funds and other types of assets</span></h4></div><a class="btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/asset-management">Let’s talk</a></div></div></div></div><div class="tab-pane fade" id="topTab17011784734522"><div class="row content-row"><div class="col-sm-6"><a><img title="" alt="" src="/api/file/29021" class="standart-image"></a></div><div class="col-sm-6 border"><div class="tab-content-block"><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h2><b>Subordinated deposits</b><br></h2></div><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">By providing a subordinated loan to the bank, you will enjoy significantly higher rates.</span><br></h4><h4><br><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•&nbsp;We offer individual rates for deposits over EUR 500 000</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;• Minimum deposit of EUR 10 000</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•&nbsp;Receive monthly interest payments</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;• 5 to 7 year periods with rates from 4% to 5,5% available for subordinated deposits under EUR 500 000</span></h4><p><br></p></div><a class="btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/subordinated-deposit">Apply now</a></div></div></div></div><div class="tab-pane fade" id="topTab17011784734523"><div class="row content-row"><div class="col-sm-6"><a><img title="" alt="" src="/api/file/29224" class="standart-image"></a></div><div class="col-sm-6 border"><div class="tab-content-block"><div class="angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h2><b>Brokerage</b><br></h2></div><div class="txt-desc   angular-medium-editor medium-editor-element" spellcheck="true" role="textbox" aria-multiline="true"><h4><span style="color: rgb(172, 172, 173);">Whether you decide to entrust your financial trading to our experienced brokers or use our platforms for your own trades, with us, you can move as fast as the market. We provide the latest expertise and the most cutting-edge technology for your success.</span><br></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Access to every leading stock exchange in the world&nbsp;</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Forex, CFD, stocks, bonds, futures, options and other financial instruments&nbsp;&nbsp;&nbsp;</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Competitive pricing and transparent fees</span></h4><h4><span style="color: rgb(172, 172, 173);">&nbsp; &nbsp; &nbsp;•	Current and investment accounts can be opened remotely&nbsp;&nbsp;</span><br></h4></div><a class="btn widget-btn" style="background-color: #e07821; border-color: #e07821;" href="/en/brokerage">learn more</a></div></div></div></div></div></div></div></div></div></div></div><div><div id="" class="widget-block-6" style="margin: 100px 0px 150px;"><div class="container"><div><span class="drag-area"></span><div class="row" id="latestNews1701178473459">
+        <h2 class="latestNews">Latest news</h2>
+        <a class="see-all" href="/latvija/en/news">See all &gt;</a>
+        <div class="clearfix"></div>
+        <div class="row">
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <h5>December 08, 2023</h5>
+                        <a href="/en/news/2023/changes-in-the-membership-structure-of-the-bluor-bank-management-board"><h3>Changes in the membership structure of the BluOr Bank Management Board</h3></a>
+                        <a href="/en/news/2023/changes-in-the-membership-structure-of-the-bluor-bank-management-board" class="btn widget-btn read-more-mobile">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <h5>November 27, 2023</h5>
+                        <a href="/en/news/2023/bluor-bank-funding-for-the-development-of-organic-poultry-farming"><h3>BluOr Bank funding for the development of organic poultry farming</h3></a>
+                        <a href="/en/news/2023/bluor-bank-funding-for-the-development-of-organic-poultry-farming" class="btn widget-btn read-more-mobile">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <h5>October 04, 2023</h5>
+                        <a href="/en/news/2023/europes-largest-subaru-car-centre-under-construction-with-support-from-bluor-bank"><h3>Europe's largest Subaru car centre under construction with support from BluOr Bank</h3></a>
+                        <a href="/en/news/2023/europes-largest-subaru-car-centre-under-construction-with-support-from-bluor-bank" class="btn widget-btn read-more-mobile">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <h5>August 31, 2023</h5>
+                        <a href="/en/news/2023/management-report-on-bluor-bank-activities-in-h1-2023"><h3>Management Report on BluOr Bank Activities in H1 2023 *</h3></a>
+                        <a href="/en/news/2023/management-report-on-bluor-bank-activities-in-h1-2023" class="btn widget-btn read-more-mobile">Read more</a>
+                    </div>
+                </div>
+        </div>
+        <div class="row read-more">
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <a class="btn widget-btn" href="/en/news/2023/changes-in-the-membership-structure-of-the-bluor-bank-management-board">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <a class="btn widget-btn" href="/en/news/2023/bluor-bank-funding-for-the-development-of-organic-poultry-farming">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <a class="btn widget-btn" href="/en/news/2023/europes-largest-subaru-car-centre-under-construction-with-support-from-bluor-bank">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 widget-element">
+                    <div class="news-block">
+                        <a class="btn widget-btn" href="/en/news/2023/management-report-on-bluor-bank-activities-in-h1-2023">Read more</a>
+                    </div>
+                </div>
+        </div></div></div></div></div><script>
+    $.get((pageRegion && pageRegion.length > 0 ? '/' : '') + pageRegion + '/' + pageLang + "/news/latest", function (response) {
+        $("#latestNews1701178473459").html(response);
+    });
+
+</script></div><div><div id="" class="widget-block-callToAction" style="margin: 120px 0px 30px;"><div class="widget-bg" style="background-image: url(&quot;&quot;); padding: 0px;"><div class="container"><div><span class="drag-area"></span><div class="row"><div class="col-sm-12" style="text-align: center;"><div class="row-text text-center" spellcheck="true" role="textbox" aria-multiline="true"><p><span style="font-size: 36px;"><b>Useful information</b></span><br></p></div></div></div></div></div></div></div></div><div><div id="" class="widget-block-twoColumnCategoryShowcase" style="margin: 0px 0px 100px;"><div class="container"><div><span class="drag-area"></span><div class="row"><div class="col-md-6 column-block"><div class="row-block row-block-left block-bg" onclick="redirect(this, event)" data-redirect-url="" data-new-window="" style="background-image: url(&quot;&quot;); background-color: rgb(0, 87, 184); line-height: 50px; height: 50px; text-align: center;"><a class="btn widget-btn" href="/en/apply-for-a-visit" style="vertical-align: middle; background-color: rgb(0, 87, 184); border-color: rgb(0, 87, 184); width: 60%;">Apply for a visit</a></div></div><div class="col-md-6 column-block"><div class="row-block row-block-right block-bg" onclick="redirect(this, event)" data-redirect-url="" data-new-window="" style="background-image: url(&quot;&quot;); background-color: rgb(0, 87, 184); line-height: 50px; height: 50px; text-align: center;"><a class="btn widget-btn" href="/en/contacts-and-details" style="vertical-align: middle; background-color: rgb(0, 87, 184); border-color: rgb(0, 87, 184); width: 60%;">Contacts and details</a></div></div></div><div class="row"><div class="col-md-6 column-block"><div class="row-block row-block-left block-bg" onclick="redirect(this, event)" data-redirect-url="" data-new-window="" style="background-image: url(&quot;&quot;); background-color: rgb(0, 87, 184); line-height: 50px; height: 50px; text-align: center;"><a class="btn widget-btn" href="/en/atm" style="vertical-align: middle; background-color: rgb(0, 87, 184); border-color: rgb(0, 87, 184); width: 60%;">BluOr Bank ATM</a></div></div><div class="col-md-6 column-block"><div class="row-block row-block-right block-bg" onclick="redirect(this, event)" data-redirect-url="" data-new-window="" style="background-image: url(&quot;&quot;); background-color: rgb(0, 87, 184); line-height: 50px; height: 50px; text-align: center;"><a class="btn widget-btn" href="/en/blog" style="vertical-align: middle; background-color: rgb(0, 87, 184); border-color: rgb(0, 87, 184); width: 60%;">Blog</a></div></div></div></div></div></div></div>
+        </div>
+
+        <div class="i-footer">
+    <div class="i-footer-content">
+            <div class="footer-column">
+                    <div class="footer-title">QUICK LINKS</div>
+
+                        <a class="footer-link" title="" href="/en/contacts-and-details">Contacts and details</a>
+                        <a class="footer-link" title="" href="/en/pricelist">Pricelist</a>
+                        <a class="footer-link" title="" href="/en/exchange-rates">Exchange rates</a>
+                        <a class="footer-link" title="" href="/en/documents"> Documents</a>
+                        <a class="footer-link" title="" href="/en/mobile-bank">Mobile bank</a>
+                        <a class="footer-link" title="" href="/en/remote-identification">Remote identification</a>
+                        <a class="footer-link" title="" href="/en/questions-and-answers">Questions and answers</a>
+                        <a class="footer-link" title="" href="/en/atm">BluOr Bank ATM</a>
+            </div>
+            <div class="footer-column">
+                    <div class="footer-title">BLUOR BANK</div>
+
+                        <a class="footer-link" title="" href="/en/about-us">About us</a>
+                        <a class="footer-link" title="" href="/en/our-team">Our team</a>
+                        <a class="footer-link" title="" href="/en/financial-information">Financial information</a>
+                        <a class="footer-link" title="" href="/en/careers">Careers</a>
+                        <a class="footer-link" title="" href="/en/financial-institutions">Financial institutions</a>
+                        <a class="footer-link" title="" href="/en/bluor-bank-api">BluOr Bank API</a>
+                        <a class="footer-link" title="" href="/latvija/en/news">News</a>
+            </div>
+            <div class="footer-column">
+                    <div class="footer-title">REGULATIONS</div>
+
+                        <a class="footer-link" title="" href="/en/compliance">Compliance</a>
+                        <a class="footer-link" title="" href="/en/information-on-processing-of-personal-data">Information on processing of personal data</a>
+                        <a class="footer-link" title="" href="/en/cookie-policy">Cookie Policy</a>
+                        <a class="footer-link" title="" href="/en/website-use-regulations">Website Use Regulations</a>
+                        <a class="footer-link" title="" href="/en/participation-in-associations">Participation in Associations</a>
+                        <a class="footer-link" title="" href="/en/definitions">Definitions</a>
+            </div>
+            <div class="footer-column">
+                    <div class="footer-title">CHARITY</div>
+
+                        <a class="footer-link" href="https://www.beopen.lv/en" target="_blank">Charity Foundation BeOpen</a>
+                        <a class="footer-link" href="/en/blueorange-charity-projects">Bank's good deeds</a>
+            </div>
+    </div>
+
+    <div class="i-contact-block">
+        <div>
+            <div class="i-contact-title">Contacts</div>
+            <div class="i-contact-item">Phone <a href="tel:+371 67 031 333" target="">+371 67 031 333</a><br></div>
+            <div class="i-contact-item"><a href="mailto:info@bluorbank.lv" target="" style=""><span id="selectionBoundary_1615378212877_7130229594747213" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>info@blu<span id="selectionBoundary_1647714276473_7910422526461689" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>orba<span id="selectionBoundary_1647714284007_05000060738163414" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>nk.</a>lv<span id="selectionBoundary_1647714284007_8887443211579067" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>​<span id="selectionBoundary_1615378212877_37541706763797" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span></div>
+            <div class="i-contact-item">Smilšu iela 6, Rīga, LV-1050, Latvija<br></div>
+            <div class="i-contact-item">Payment card blocking outside working hours and on weekends <a href="tel:+37167092555" target="">+371 67092555</a></div>
+        </div>
+    </div>
+    <div class="i-credits">
+        
+        <div>© 2023<span id="selectionBoundary_1678087641255_023805632998495252" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>&nbsp;BluOr<span id="selectionBoundary_1647711637860_22959881384171066" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>&nbsp;Bank AS<span id="selectionBoundary_1647711767652_5400839947036624" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>. All rights reserved.</div>
+    </div>
+</div>
+<a class="scrollToTop" href="#">
+    <i class="iam iam-scroll-up">
+        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+    </i>
+</a>
+
+</div>
+    </div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1538291673143384");fbq("set","agent","tmgoogletagmanager","1538291673143384");fbq("track","PageView");</script>
+
+
+    <script src="/Scripts/vendor.js?v=1.5.8733.28214"></script>
+    
+    
+
+
+
+
+<div id="GDPR-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">We use cookies on this website</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-3 leftSidbar">
+                        <nav class="nav-sidebar">
+                            <ul class="nav tabs">
+                                            <li class="active">
+                                                <a href="#tab-1" data-toggle="tab"><i class="icon pull-left hidden-xs showopacity fa fa-check-circle-o"></i><span>About cookies</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#tab-2" data-toggle="tab"><i class="icon pull-left hidden-xs showopacity fa fa-check-circle-o"></i><span>Mandatory cookies</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#tab-3" data-toggle="tab"><i class="icon pull-left hidden-xs showopacity fa fa-check-circle-o"></i><span>Statistical cookies</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#tab-4" data-toggle="tab"><i class="icon pull-left hidden-xs showopacity fa fa-check-circle-o"></i><span>Advertising cookies</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#tab-5" data-toggle="tab"><i class="icon pull-left hidden-xs showopacity fa fa-check-circle-o"></i><span>More information</span></a>
+                                            </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="tab-1">
+                                        <div class="tab-header-content">
+                                            <h3 class="tab-title">About cookies</h3>
+                                        </div>
+                                        <div class="tab-body-content">
+                                            <p><br></p><p>Various websites can place&nbsp;<i style=" letter-spacing: -0.1px;">cookies&nbsp;</i><span style=" letter-spacing: -0.1px;">in your browser in order to get information about your device and behaviour on the website. This information generally does not identify you as a particular person and allows to provide a personalized experience in your interactions with the website, such as saving your choice of language, so that next time you don’t have to choose it again, etc. You can reject different types of cookies. To do this, click on the cookie type names, learn how they are used on our website and edit the settings.</span></p><p><br></p>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in " id="tab-2">
+                                        <div class="tab-header-content">
+                                            <h3 class="tab-title">Mandatory cookies</h3>
+                                                    <div data-cookie-id="12" class="toogle-status-text hidden-xs">Agree</div>
+                                                <div id="12" class="toggle-switch">
+                                                        <label class="switch switch-disabled">
+                                                            <input value="12" type="checkbox" checked="checked" disabled="disabled">
+                                                            <span class="slider"></span>
+                                                        </label>
+                                                    
+                                                </div>
+                                                    <div data-cookie-id="12" class="toogle-status-text hidden-md hidden-lg hidden-sm">Agree</div>
+                                        </div>
+                                        <div class="tab-body-content">
+                                            <p><br></p>
+<p>These cookies are necessary for the website’s functioning and cannot be disabled on our systems. They will remember your choice regarding the language of the page and control that no unwanted cookies are installed. Also, these cookies allow to communicate with the bank’s representative in the live chat window. <br></p>
+<p></p><h3>Used cookies&nbsp;</h3><p></p>
+<p>Bank.Lang.Cookie <br>BankConsent Cookie<br>Google Tag Manager <br>JivoChat<br></p>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in " id="tab-3">
+                                        <div class="tab-header-content">
+                                            <h3 class="tab-title">Statistical cookies</h3>
+                                                    <div data-cookie-id="13" class="toogle-status-text hidden-xs">Disagree</div>
+                                                <div id="13" class="toggle-switch">
+                                                        <label class="switch">
+                                                            <input value="13" type="checkbox">
+                                                            <span class="slider"></span>
+                                                        </label>
+                                                    
+                                                </div>
+                                                    <div data-cookie-id="13" class="toogle-status-text hidden-md hidden-lg hidden-sm">Disagree</div>
+                                        </div>
+                                        <div class="tab-body-content">
+                                            <p><br></p>
+<p>These cookies allow us to collect statistics of page visits and their sources so that we can evaluate and improve the performance of our website. All information collected through cookies is anonymous and does not collect any personal information. <br></p>
+<p></p><h3>Used cookies</h3><p></p>
+<p>Google Analytics<br>Yandex Metrica <br></p>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in " id="tab-4">
+                                        <div class="tab-header-content">
+                                            <h3 class="tab-title">Advertising cookies</h3>
+                                                    <div data-cookie-id="14" class="toogle-status-text hidden-xs">Disagree</div>
+                                                <div id="14" class="toggle-switch">
+                                                        <label class="switch">
+                                                            <input value="14" type="checkbox">
+                                                            <span class="slider"></span>
+                                                        </label>
+                                                    
+                                                </div>
+                                                    <div data-cookie-id="14" class="toogle-status-text hidden-md hidden-lg hidden-sm">Disagree</div>
+                                        </div>
+                                        <div class="tab-body-content">
+                                            <p><br></p>
+
+<p>These cookies are placed by our advertising partners. They can use them to evaluate your interests and user profile, and display relevant ads on other websites. These cookies work based on data about your browser and device, not on your private data. <br></p>
+
+<p></p>
+<h3>Used cookies</h3>
+<p></p>
+
+<p>Google/DoubleClick<br>Facebook<br><br></p>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in " id="tab-5">
+                                        <div class="tab-header-content">
+                                            <h3 class="tab-title">More information</h3>
+                                        </div>
+                                        <div class="tab-body-content">
+                                            <p><br></p><p>More information on how we use cookies on our website - <a href="/en/cookie-policy" target="">here</a></p>
+                                        </div>
+                                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="allowAllGDPR" type="button" class="btn widget-btn">Allow all cookies</button>
+                <button id="saveGDPR" type="button" class="btn widget-btn">Save Settings</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    var GdprAllowText = 'Agree';
+    var GdprDisallowText = 'Disagree';
+</script>
+</body></html>

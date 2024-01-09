@@ -30,7 +30,6 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.10.0",
             'org.slf4j:slf4j-simple:2.0.7',
-            'com.github.javafaker:javafaker:1.0.2'
     )
 }
 
@@ -46,20 +45,14 @@ tasks.withType(Test) {
     }
 }
 
-task all_tests(type: Test) {
+task menu_test(type: Test) {
     useJUnitPlatform {
-        includeTags("all-tests")
+        includeTags("menu_test")
     }
 }
 
-task smoke_tests(type: Test) {
+task main_test(type: Test) {
     useJUnitPlatform {
-        includeTags("smoke")
-    }
-}
-
-task regress_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("regress")
+        includeTags("main_test")
     }
 }
