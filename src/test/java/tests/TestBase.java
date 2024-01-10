@@ -45,8 +45,9 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
-     public static void allowCookiesIfNeeded() {
-        if ($(".modal-dialog").isDisplayed()) {
+     protected static void allowCookiesIfNeeded() {
+        $("#GDPR-modal").shouldBe(visible, Duration.ofSeconds(10));
+        if ($("#GDPR-modal").isDisplayed()) {
             $("#allowAllGDPR").click();
         }
     }

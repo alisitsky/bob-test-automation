@@ -1,6 +1,7 @@
 package tests.components;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import data.Language;
 import data.RunTags;
 import org.junit.jupiter.api.BeforeEach;
