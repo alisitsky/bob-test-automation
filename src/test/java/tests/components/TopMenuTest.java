@@ -25,8 +25,10 @@ public class TopMenuTest extends TestBase {
 
     @BeforeEach
     void setUp() {
-        step("Open site by url", () -> open(Configuration.baseUrl));
-        allowCookiesIfNeeded();
+        step("Open site by url", () -> {
+            open(Configuration.baseUrl);
+            allowCookiesIfNeeded();
+        });
     }
 
     public static Stream<Arguments> getTopMenuOptionsInAllLanguages() {

@@ -40,7 +40,7 @@ public class MainPage {
                 && !getBurgerMenuElement().isDisplayed()) {
             getTopMenuLanguagePicker().parent().click();
             getTopMenuLanguages().findBy(text(language)).click();
-            Selenide.sleep(2000);
+            Selenide.sleep(3000);
         } else {
             getBurgerMenuElement().click();
             selectLanguageMobile(language);
