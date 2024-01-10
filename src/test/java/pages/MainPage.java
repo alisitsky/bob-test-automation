@@ -42,7 +42,7 @@ public class MainPage {
             getTopMenuLanguagePicker().parent().click();
             getTopMenuLanguages().findBy(text(language)).click();
             getTopMenuOptions().first().shouldBe(visible, Duration.ofSeconds(10));
-        } else {
+        } else if (getBurgerMenuElement().isDisplayed()) {
             getBurgerMenuElement().click();
             selectLanguageMobile(language);
         }
