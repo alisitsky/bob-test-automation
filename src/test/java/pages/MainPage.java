@@ -6,6 +6,7 @@ import com.codeborne.selenide.SelenideElement;
 import data.Language;
 import org.junit.jupiter.params.provider.Arguments;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -20,7 +21,7 @@ public class MainPage {
             internetBankButtonLocator = $(".i-internetbank"),
             logoLocator = $(".i-logo"),
             languagePickerLocator = $("#languages"),
-            scrollToTopElementLocator = $("scrollToTop");
+            scrollToTopElementLocator = $(".scrollToTop");
 
 
     public SelenideElement getTopMenuLanguagePicker() {
@@ -37,10 +38,10 @@ public class MainPage {
 
     public void selectLanguage(String language) {
         if (!getTopMenuLanguagePicker().getText().trim().equals(text(language))
-                && !getBurgerMenuElement().isDisplayed()) {
+                || !getBurgerMenuElement().isDisplayed()) {
             getTopMenuLanguagePicker().parent().click();
             getTopMenuLanguages().findBy(text(language)).click();
-            Selenide.sleep(3000);
+            getTopMenuOptions().first().shouldBe(visible, Duration.ofSeconds(10));
         } else {
             getBurgerMenuElement().click();
             selectLanguageMobile(language);
