@@ -105,7 +105,7 @@ After the build is completed, icons for "Allure Report" and "Allure TestOps" wil
 
 ____
 <a id="allureReport"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure_Report.svg"> </a> Example <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> [Allure Report] </a>
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure_Report.svg"> </a> Example of <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> Allure Report </a>
 
 <p align="center">
 <img title="Allure Overview" src="media/screenshots/Allure.png">
@@ -113,7 +113,7 @@ ____
 
 ____
 <a id="allure"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> [Allure TestOps] </a>
+## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> Allure TestOps </a>
 
 On the *Dashboard* in **Allure TestOps**, you can see the statistics of the number of tests: how many of them are added and executed manually, how many are automated. New tests and test run results are sent through the integration with each build.
 
