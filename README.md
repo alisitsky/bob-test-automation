@@ -86,7 +86,7 @@ gradle clean main_test
 ```
 ____
 <a id="jenkins"></a>
-## <img width="10%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> [Link] </a>
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> [Link] </a>
 
 Registration on the [Jenkins](https://jenkins.autotests.cloud/) resource is required for access to Jenkins.
 
@@ -105,7 +105,7 @@ After the build is completed, icons for "Allure Report" and "Allure TestOps" wil
 
 ____
 <a id="allureReport"></a>
-## <img width="8%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure_Report.svg"> </a> Example <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> [Allure Report] </a>
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/icons/Allure_Report.svg"> </a> Example <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> [Allure Report] </a>
 
 <p align="center">
 <img title="Allure Overview" src="media/screenshots/Allure.png">
@@ -113,7 +113,7 @@ ____
 
 ____
 <a id="allure"></a>
-## <img width="10%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> [Allure TestOps] </a>
+## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> [Allure TestOps] </a>
 
 On the *Dashboard* in **Allure TestOps**, you can see the statistics of the number of tests: how many of them are added and executed manually, how many are automated. New tests and test run results are sent through the integration with each build.
 
@@ -123,7 +123,7 @@ On the *Dashboard* in **Allure TestOps**, you can see the statistics of the numb
 
 ____
 <a id="jira"></a>
-## <img width="8%" style="vertical-align:middle" title="Jira" src="media/icons/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
+## <img width="4%" style="vertical-align:middle" title="Jira" src="media/icons/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
 
 Integration with **Allure TestOps** and **Jira** is implemented. In the Jira task, you can see which test cases were written as part of the task and their execution results.
 
@@ -133,7 +133,7 @@ Integration with **Allure TestOps** and **Jira** is implemented. In the Jira tas
 
 ____
 <a id="telegram"></a>
-## <img width="10%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Notifications in Telegram via Bot
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Notifications in Telegram via Bot
 
 After the build is complete, a bot created in **Telegram** automatically processes and sends a message with the test run report to a specifically configured chat.
 
@@ -143,7 +143,7 @@ After the build is complete, a bot created in **Telegram** automatically process
 
 ____
 <a id="video"></a>
-## <img width="10%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.svg"> </a> Video attachment example
+## <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.svg"> </a> Video attachment example
 
 In the Allure reports for each test, a video of the test execution is attached along with a screenshot.
 
