@@ -1,7 +1,6 @@
 package tests.components;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import data.Language;
 import data.RunTags;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,6 +17,7 @@ import java.util.stream.Stream;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Tag(RunTags.MENU)
 public class TopMenuTest extends TestBase {
@@ -53,9 +53,9 @@ public class TopMenuTest extends TestBase {
 
     public static Stream<Arguments> getTopMenuLogoHrefInAllLanguages() {
         return Stream.of(
-                Arguments.of(Language.EN, "/en"),
-                Arguments.of(Language.LV, "/lv"),
-                Arguments.of(Language.RU, "/ru")
+                Arguments.of(Language.EN, Configuration.baseUrl + "en"),
+                Arguments.of(Language.LV, Configuration.baseUrl + "lv"),
+                Arguments.of(Language.RU, Configuration.baseUrl + "ru")
         );
     }
 

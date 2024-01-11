@@ -3,13 +3,10 @@ package pages;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import data.Language;
-import org.junit.jupiter.params.provider.Arguments;
 import tests.TestBase;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.stream.Stream;
 
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
@@ -42,6 +39,7 @@ public class MainPage {
             if (!getTopMenuLanguagePicker().getText().equals(language)) {
                 getTopMenuLanguagePicker().parent().click();
                 getTopMenuLanguages().findBy(text(language)).click();
+                getTopMenuOptions().first().shouldBe(visible, Duration.ofSeconds(10));
             }
         } else {
             getBurgerMenuElement().shouldBe(visible).click();
@@ -72,7 +70,7 @@ public class MainPage {
     }
 
     public void verifyTopMenuOptions(List<String> topMenuButtons) {
-        if (!getTopMenuLanguagePicker().isDisplayed()) {
+        if (getBurgerMenuElement().isDisplayed()) {
             getBurgerMenuElement().click();
         }
         getTopMenuOptions().filter(visible).shouldHave(texts(topMenuButtons));
