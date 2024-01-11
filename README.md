@@ -68,25 +68,25 @@ ____
 
 #### Local execution. From the project's root directory, run:
 
-<em> To run all the tests: </em>
+<em> To run <b>all</b> the tests: </em>
 
 ```
 gradle clean test 
 ```
-<em> To run all the tests w/ @Tag("menu_test")):</em>
+<em> To run all the tests tagged as <b>"menu_test"</b>:</em>
 
 ```
 gradle clean menu_test
 ```
 
-<em> To runs all the tests w/ @Tag("mein_test")): </em>
+<em> To runs all the tests tagged as <b>"main_test"</b>: </em>
 
 ```
 gradle clean main_test
 ```
 ____
 <a id="jenkins"></a>
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> [Link] </a>
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/icons/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> </a>
 
 Registration on the [Jenkins](https://jenkins.autotests.cloud/) resource is required for access to Jenkins.
 
@@ -123,7 +123,7 @@ On the *Dashboard* in **Allure TestOps**, you can see the statistics of the numb
 
 ____
 <a id="jira"></a>
-## <img width="4%" style="vertical-align:middle" title="Jira" src="media/icons/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
+## <img width="4%" style="vertical-align:middle" title="Jira" src="media/icons/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
 
 Integration with **Allure TestOps** and **Jira** is implemented. In the Jira task, you can see which test cases were written as part of the task and their execution results.
 
@@ -133,9 +133,9 @@ Integration with **Allure TestOps** and **Jira** is implemented. In the Jira tas
 
 ____
 <a id="telegram"></a>
-## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Notifications in Telegram via Bot
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Telegram notifications via bot
 
-After the build is complete, a bot created in **Telegram** automatically processes and sends a message with the test run report to a specifically configured chat.
+After the build is complete, a **Telegram** bot automatically processes and sends a message with the test run report to a specifically configured chat.
 
 <p align="left">
 <img width="40%" title="Telegram Notifications" src="media/screenshots/TelegramBot.png">
