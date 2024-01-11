@@ -41,7 +41,7 @@ public class TopMenuTest extends TestBase {
     }
 
     @MethodSource("getTopMenuOptionsInAllLanguages")
-    @ParameterizedTest(name = "Set language {0} and check top menu contains {1}")
+    @ParameterizedTest(name = "Set language {0} and check top menu options are {1}")
     void checkTopMenuOptionsInAnyLanguage(Language language, List<String> topMenuButtons) {
         step("Select language", () -> {
             mainPage.selectLanguage(language.getLanguage());
@@ -77,7 +77,7 @@ public class TopMenuTest extends TestBase {
     }
 
     @MethodSource("getTopMenuInternetBankLoginButtonInAllLanguages")
-    @ParameterizedTest(name = "Set language {0} and check internet bank login button name is {1} and href is {2}")
+    @ParameterizedTest(name = "Set language {0} and check login to internet bank button name is {1} and href is {2}")
     void checkTopMenuInternetBankLoginButtonIsDisplayedAndVerifyItHrefAndNameInAnyLanguage(Language language, String name, String ibHref) {
         step("Select language", () -> mainPage.selectLanguage(language.getLanguage()));
         step("Verify top menu options", () -> {

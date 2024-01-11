@@ -5,6 +5,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import data.Language;
 import org.junit.jupiter.params.provider.Arguments;
+import tests.TestBase;
 
 import java.time.Duration;
 import java.util.List;
@@ -21,8 +22,8 @@ public class MainPage {
             internetBankButtonLocator = $(".i-internetbank"),
             logoLocator = $(".i-logo"),
             languagePickerLocator = $("#languages"),
-            scrollToTopElementLocator = $(".scrollToTop");
-
+            scrollToTopElementLocator = $(".scrollToTop"),
+            overdraftSectionLocator = $(".widget-block-11");
 
     public SelenideElement getTopMenuLanguagePicker() {
         return languagePickerLocator;
@@ -37,13 +38,13 @@ public class MainPage {
     }
 
     public void selectLanguage(String language) {
-        if (!getTopMenuLanguagePicker().getText().trim().equals(text(language))
-                || !getBurgerMenuElement().isDisplayed()) {
-            getTopMenuLanguagePicker().parent().click();
-            getTopMenuLanguages().findBy(text(language)).click();
-            getTopMenuOptions().first().shouldBe(visible, Duration.ofSeconds(10));
-        } else if (getBurgerMenuElement().isDisplayed()) {
-            getBurgerMenuElement().click();
+        if (!TestBase.isMobile()) {
+            if (!getTopMenuLanguagePicker().getText().equals(language)) {
+                getTopMenuLanguagePicker().parent().click();
+                getTopMenuLanguages().findBy(text(language)).click();
+            }
+        } else {
+            getBurgerMenuElement().shouldBe(visible).click();
             selectLanguageMobile(language);
         }
     }
@@ -83,7 +84,7 @@ public class MainPage {
     }
 
     public SelenideElement getOverdraftSection() {
-        return $(".widget-block-11");
+        return overdraftSectionLocator;
     }
 
     public SelenideElement getOverdraftSectionApplyButton() {

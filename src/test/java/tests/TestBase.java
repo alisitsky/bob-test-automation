@@ -6,24 +6,16 @@ import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.Attachments;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.checkerframework.checker.units.qual.A;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Map;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.webdriver;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class TestBase {
 
@@ -50,6 +42,11 @@ public class TestBase {
         if ($("#GDPR-modal").isDisplayed()) {
             $("#allowAllGDPR").click();
         }
+    }
+
+    public static boolean isMobile() {
+        int screenWidth = WebDriverRunner.getWebDriver().manage().window().getSize().getWidth();
+        return  screenWidth < 1001;
     }
 
     @AfterEach
