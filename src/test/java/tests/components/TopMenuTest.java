@@ -17,7 +17,6 @@ import java.util.stream.Stream;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Tag(RunTags.MENU)
 public class TopMenuTest extends TestBase {
