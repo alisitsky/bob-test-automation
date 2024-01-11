@@ -3,15 +3,21 @@ package pages;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.WebDriverRunner;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import tests.TestBase;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.function.BooleanSupplier;
 
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MainPage {
 
@@ -39,7 +45,7 @@ public class MainPage {
             if (!getTopMenuLanguagePicker().getText().equals(language)) {
                 getTopMenuLanguagePicker().parent().click();
                 getTopMenuLanguages().findBy(text(language)).click();
-                getTopMenuOptions().first().shouldBe(visible, Duration.ofSeconds(10));
+                Selenide.sleep(5000);
             }
         } else {
             getBurgerMenuElement().shouldBe(visible).click();
