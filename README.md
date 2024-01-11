@@ -1,7 +1,7 @@
 **Project for automated testing of the [BluOr Bank's](https://www.bluorbank.lv/)  web application**
 
 
-<img alt="BluOr Bank" src="/media/logos/bob-logo.png">
+<img alt="BluOr Bank" src="/media/logos/bob-logo.png" width="50%">
 
 ## Content:
 
@@ -27,7 +27,6 @@ ____
 <a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="media/icons/AllureTestOps.svg"></a>
 <a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/icons/Gradle.svg"></a>
 <a href="https://junit.org/junit5/"><img width="6%" title="JUnit5" src="media/icons/JUnit5.svg"></a>
-<a href="https://github.com/"><img width="6%" title="GitHub" src="media/icons/GitHub.svg"></a>
 <a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/icons/Jenkins.svg"></a>
 <a href="https://web.telegram.org/"><img width="6%" title="Telegram" src="media/icons/Telegram.svg"></a>
 <a href="https://www.atlassian.com/ru/software/jira/"><img width="5%" title="Jira" src="media/icons/Jira.svg"></a>
@@ -66,26 +65,37 @@ ____
 
 ### Running Tests from the Terminal
 
-Local execution. From the project's root directory, run:
+#### Local execution. From the project's root directory, run:
+
+<em> To run all the tests: </em>
+
 ```
-gradle clean test //Runs all the tests
-gradle clean menu_test //Runs all the tests w @Tag(RunTags.MENU))
-gradle clean main_test //Runs all the tests w @Tag(RunTags.MAIN_PAGE))
+gradle clean test 
+```
+<em> To run all the tests w/ @Tag("menu_test")):</em>
+
+```
+gradle clean menu_test
+```
+
+<em> To runs all the tests w/ @Tag("mein_test")): </em>
+
+```
+gradle clean main_test
 ```
 ____
 <a id="jenkins"></a>
-## <img width="10%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> </a> Jenkins Build <a target="_blank" href="https://jenkins.autotests.cloud/job/BirdsAutotests/"> [Link] </a>
+## <img width="10%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> </a> Jenkins Build <a target="_blank"> [Link] </a>
 
 Registration on the [Jenkins](https://jenkins.autotests.cloud/) resource is required for access to Jenkins.
 
 To start the build, go to the "Build with parameters" section, select the necessary parameters, and click "Build".
 ### Jenkins Build Parameters:
 - TASK (set of tests to run)
-- URL (tested base url)
-- SELENOID (address of the remote host for test execution)
-- SIZE (browser window size, 1920x1080 by default)
-- VERSION (browser version, 100.0 by default. Supports execution in Firefox on versions 98.0 and 97.0, as well as Chrome 99.0 and 100.0)
 - BROWSER (browser, chrome by default)
+- RESOLUTION (browser window size, 1920x1080 by default)
+- VERSION (browser version, 100.0 by default. Supports execution in Firefox on versions 98.0 and 97.0, as well as Chrome 99.0 and 100.0)
+- BASE (tested site base url)
 <p align="center">
 <img title="Jenkins Build" src="media/screenshots/Jenkins.png">
 </p>
@@ -93,7 +103,7 @@ After the build is completed, icons for "Allure Report" and "Allure TestOps" wil
 
 ____
 <a id="allureReport"></a>
-## <img width="8%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> </a> Example <a target="_blank" href="https://jenkins.autotests.cloud/job/BirdsAutotests/6/allure/"> [Allure Report] </a>
+## <img width="8%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> </a> Example <a target="_blank" href="https://jenkins.autotests.cloud/job/bob_autotests/20/"> [Allure Report] </a>
 
 <p align="center">
 <img title="Allure Overview" src="media/screenshots/Allure.png">
@@ -101,7 +111,7 @@ ____
 
 ____
 <a id="allure"></a>
-## <img width="8%" style="vertical-align:middle" title="Allure TestOps" src="media/logo/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3872/dashboards"> [Allure TestOps] </a>
+## <img width="8%" style="vertical-align:middle" title="Allure TestOps" src="media/logo/AllureTestOps.svg"> </a> Integration with <a target="_blank" href="https://allure.autotests.cloud/project/3952/dashboards"> [Allure TestOps] </a>
 
 On the *Dashboard* in **Allure TestOps**, you can see the statistics of the number of tests: how many of them are added and executed manually, how many are automated. New tests and test run results are sent through the integration with each build.
 
@@ -110,25 +120,23 @@ On the *Dashboard* in **Allure TestOps**, you can see the statistics of the numb
 </p>
 
 ____
-<a id="jira"></a>
-## <img width="8%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1000"> [Jira] </a>
+<a id="Jira"></a>
+## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1042"> Jira </a>
 
-Integration with **Allure TestOps
-
-** and **Jira** is implemented. In the Jira task, you can see which test cases were written as part of the task and their execution results.
+Integration with **Allure TestOps** and **Jira** is implemented. In the Jira task, you can see which test cases were written as part of the task and their execution results.
 
 <p align="center">
 <img title="Jira Task" src="media/screenshots/JiraTask.png">
 </p>
 
 ____
-<a id="tg"></a>
-## <img width="10%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> </a> Notifications in Telegram Using a Bot
+<a id="telegram"></a>
+## <img width="10%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Notifications in Telegram via Bot
 
 After the build is complete, a bot created in **Telegram** automatically processes and sends a message with the test run report to a specifically configured chat.
 
-<p align="center">
-<img width="50%" title="Telegram Notifications" src="media/screenshots/TelegramBot.png">
+<p align="left">
+<img width="40%" title="Telegram Notifications" src="media/screenshots/TelegramBot.png">
 </p>
 
 ____
@@ -138,5 +146,5 @@ ____
 In the Allure reports for each test, a video of the test execution is attached along with a screenshot.
 
 <p align="center">
-  <img title="Selenoid Video" src="media/screenshots/Video.gif">
+  <img title="Selenoid attachment" src="media/screenshots/Video.gif">
 </p>
