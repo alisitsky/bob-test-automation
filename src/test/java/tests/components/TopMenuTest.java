@@ -9,10 +9,12 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import tests.TestBase;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Stream;
 
 import static com.codeborne.selenide.CollectionCondition.texts;
+import static com.codeborne.selenide.Condition.visible;
 import static io.qameta.allure.Allure.step;
 
 @Tag(RunTags.MENU)
@@ -50,13 +52,14 @@ public class TopMenuTest extends TestBase {
     void checkTopMenuLogoIsDisplayedAndVerifyHrefInAnyLanguage(Language language, String logoHref) {
         step("Select language", () -> mainPage.selectLanguage(language.getLanguage()));
         step("Verify top menu options", () -> {
-            mainPage.getTopMenuLogo().$("a").getAttribute("href").equals(texts(logoHref));
+            mainPage.getTopMenuLogo().$("a").shouldBe(visible, Duration.ofSeconds(10))
+                    .getAttribute("href").equals(texts(logoHref));
         });
     }
 
     public static Stream<Arguments> getTopMenuInternetBankLoginButtonInAllLanguages() {
         return Stream.of(
-                Arguments.of(Language.EN, "Internet bank", "https://ib.bluorbank.lv/x/login?language=en"),
+                Arguments.of(Language.EN, "Internet bank", "htps://ib.bluorbank.lv/x/login?language=en"),
                 Arguments.of(Language.LV, "Internetbanka", "https://ib.bluorbank.lv/x/login?language=lv"),
                 Arguments.of(Language.RU, "Интернет-Банк", "https://ib.bluorbank.lv/x/login?language=ru")
         );
