@@ -20,16 +20,6 @@ import static io.qameta.allure.Allure.step;
 @Tag(RunTags.MAIN)
 public class OverdraftSectionTest extends TestBase {
 
-    MainPage mainPage = new MainPage();
-
-    @BeforeEach
-    void setUp() {
-        step("Open site by url", () -> {
-            open(Configuration.baseUrl);
-            allowCookiesIfNeeded();
-        });
-    }
-
     public static Stream<Arguments> getOverdraftSectionApplyButton() {
         return Stream.of(
                 Arguments.of(Language.EN, "Apply now", "/en/business-loans_#aizdevuma_pieteikums"),

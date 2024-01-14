@@ -8,15 +8,21 @@ import helpers.Attachments;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import pages.MainPage;
 
 import java.time.Duration;
 import java.util.Map;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
 
 public class TestBase {
+
+    public MainPage mainPage = new MainPage();
 
     @BeforeAll
     static void beforeAll() {
@@ -34,6 +40,14 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
+
+    @BeforeEach
+    void setUp() {
+        step("Open site by url", () -> {
+            open(Configuration.baseUrl);
+            allowCookiesIfNeeded();
+        });
     }
 
      protected static void allowCookiesIfNeeded() {

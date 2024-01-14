@@ -8,28 +8,16 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pages.MainPage;
 import tests.TestBase;
 
 import java.util.List;
 import java.util.stream.Stream;
 
 import static com.codeborne.selenide.CollectionCondition.texts;
-import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Tag(RunTags.MENU)
 public class TopMenuTest extends TestBase {
-
-    MainPage mainPage = new MainPage();
-
-    @BeforeEach
-    void setUp() {
-        step("Open site by url", () -> {
-            open(Configuration.baseUrl);
-            allowCookiesIfNeeded();
-        });
-    }
 
     public static Stream<Arguments> getTopMenuOptionsInAllLanguages() {
         return Stream.of(

@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage {
 
-    public static SelenideElement burgerMenuLocator = $("[for=drop-down-cbox]"),
+    private SelenideElement burgerMenuLocator = $("[for=drop-down-cbox]"),
             internetBankButtonLocator = $(".i-internetbank"),
             logoLocator = $(".i-logo"),
             languagePickerLocator = $("#languages"),
