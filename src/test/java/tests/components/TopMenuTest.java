@@ -3,7 +3,6 @@ package tests.components;
 import com.codeborne.selenide.Configuration;
 import data.Language;
 import data.RunTags;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

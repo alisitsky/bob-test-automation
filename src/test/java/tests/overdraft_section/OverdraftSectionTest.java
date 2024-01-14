@@ -1,20 +1,16 @@
 package tests.overdraft_section;
 
-import com.codeborne.selenide.Configuration;
 import data.Language;
 import data.RunTags;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pages.MainPage;
 import tests.TestBase;
 
 import java.util.stream.Stream;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag(RunTags.MAIN)
