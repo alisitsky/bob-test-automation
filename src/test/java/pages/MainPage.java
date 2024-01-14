@@ -38,7 +38,6 @@ public class MainPage {
             if (!getTopMenuLanguagePicker().getText().equals(language)) {
                 getTopMenuLanguagePicker().parent().click();
                 getTopMenuLanguages().findBy(text(language)).click();
-                Selenide.sleep(5000);
             }
         } else {
             getBurgerMenuElement().shouldBe(visible).click();
