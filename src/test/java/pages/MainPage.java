@@ -84,7 +84,7 @@ public class MainPage {
         return overdraftSectionLocator;
     }
 
-    private SelenideElement getOverdraftSectionApplyButton() {
+    public SelenideElement getOverdraftSectionApplyButton() {
         return getOverdraftSection().$(".widget-btn");
     }
 
