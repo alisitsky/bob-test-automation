@@ -38,6 +38,7 @@ public class MainPage {
             if (!getTopMenuLanguagePicker().getText().equals(language)) {
                 getTopMenuLanguagePicker().parent().click();
                 getTopMenuLanguages().findBy(text(language)).click();
+                Selenide.sleep(5000);
             }
         } else {
             getBurgerMenuElement().shouldBe(visible).click();
@@ -57,7 +58,7 @@ public class MainPage {
         return $$("[class='dropdown-menu languages'] li a");
     }
 
-    public SelenideElement getBurgerMenuElement() {
+    private SelenideElement getBurgerMenuElement() {
         return burgerMenuLocator;
     }
 
@@ -79,11 +80,11 @@ public class MainPage {
         scrollToTopElementLocator.shouldBe(visible);
     }
 
-    public SelenideElement getOverdraftSection() {
+    private SelenideElement getOverdraftSection() {
         return overdraftSectionLocator;
     }
 
-    public SelenideElement getOverdraftSectionApplyButton() {
+    private SelenideElement getOverdraftSectionApplyButton() {
         return getOverdraftSection().$(".widget-btn");
     }
 
